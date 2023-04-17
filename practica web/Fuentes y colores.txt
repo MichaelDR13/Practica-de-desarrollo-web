@@ -1,0 +1,5 @@
+Paleta de colores 
+#4BE2F1 Azul claro
+#D9D9D9 gris claro
+#FF3600 fuego
+#FFDE59 Amarillo

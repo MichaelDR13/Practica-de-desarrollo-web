@@ -1,0 +1,31 @@
+body{
+
+    background-color: #E6CF9C;
+}
+h1{
+    background-color: cyan;
+    color: forestgreen;
+}
+header {
+    width: 100%;
+    height: 250px;
+    overflow:hidden; /* Eliminamos errores de float */
+	background:#86a1e0;
+	margin-bottom:20px;
+}
+#logo {
+        position: absolute;
+         margin: all;
+         width:20%;
+         height: 160px;
+         background: url(../Imagenes/F\ \(3\).png) no-repeat;
+         float: right;
+         right: 50px;
+         background-position: center ;
+         background-size: contain;
+         top: 60px;
+}
+header nav {
+    
+
+}

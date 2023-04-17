@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<style>
+    div{
+        position: absolute;
+        right: 700px;
+        top: 280px;
+    }
+
+    nav{
+        position: absolute;
+        right: 420px;
+        top: 280px;
+    }
+
+</style>
+<body>
+    <h2>EJEMPLOS DE LISTAS</h2>
+
+    <h3>listas no ordenadas</h3>
+
+    <!--Empezaremos con las listas desordenadas con etiqueta <ul>-->
+
+        <ul>
+            <li>Ejemplo de una lista normal</li>
+            <li>Ejemplo de una lista normal 2</li>
+        </ul>
+
+    <!--diseño para las viñetas de la lista no ordenada agregando un valor diferente al atributo "type "-->
+
+        <ul>
+            <li type="circle">Esto es un tipo de viñeta</li>
+            <li type="square">Esto es otro tipo de viñeta</li>
+            <li type="disc">Y este es otro tipo de viñeta diferente</li>
+        </ul>
+    
+    <hr>
+
+    <h3>Listas Ordenadas</h3>
+
+    <!--Listas ordenadas las cuales se clasifican desde la etiqueta <ol>-->
+
+        <ol>
+            <li>este sera el número 1</li>
+            <li>este sera el número 2</li>
+            <li>este sera el número 3</li>
+        </ol>
+
+    <!--Diseño del enlistado diferente para su orden o segun su tipo 1-A que escojamos o inluso hacer la lista reversible -->
+
+        <ol start="20">
+            <li>este sera el valor 20</li>
+        </ol>
+
+        <ol type="1">
+            <li>este sera el valor 1</li>
+            <li>este sera el valor 2</li>
+            <li>este sera el valor 3</li>
+        </ol>
+
+        <ol type="1" >
+            <li>este sera el valor 1</li>
+            <li>este sera el valor 2</li>
+            <li>este sera el valor 3</li>
+        </ol>
+    <nav>
+        <ol type="A">
+            <li>este sera el valor 1</li>
+            <li>este sera el valor 2</li>
+            <li>este sera el valor 3</li>
+        </ol>
+
+        <ol type="a">
+            <li>este sera el valor 1</li>
+            <li>este sera el valor 2</li>
+            <li>este sera el valor 3</li>
+        </ol>
+    </nav>
+
+    <div>
+        <ol type="I">
+            <li>este sera el valor 1</li>
+            <li>este sera el valor 2</li>
+            <li>este sera el valor 3</li>
+        </ol>
+
+        <ol type="i">
+            <li>este sera el valor 1</li>
+            <li>este sera el valor 2</li>
+            <li>este sera el valor 3</li>
+        </ol>
+        <ol type="i" reversed>
+            <li>este sera el valor 1</li>
+            <li>este sera el valor 2</li>
+            <li>este sera el valor 3</li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <h2>Listas para terminos</h2>
+
+    <!--Listas para darle significados a terminos o para glosarios-->
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de Marcado y estructura</dd>
+
+        <dt>CSS</dt>
+        <dd>Lenguaje de hojas de estilo en cascada</dd>
+
+        <dt>JS</dt>
+        <dd>Lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase.</dd>
+
+    </dl>
+
+</body>
+</html>
